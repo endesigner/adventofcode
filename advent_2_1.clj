@@ -1,4 +1,4 @@
-(ns advent-1-2
+(ns advent-2-1
   (:import (java.io FileReader BufferedReader))
   (:use [clojure.string :only (split)])
   )
@@ -29,4 +29,3 @@
      (. br readLine) 0)))
 
 (read-file "input2-1.txt")
-
